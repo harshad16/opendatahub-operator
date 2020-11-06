@@ -5,6 +5,9 @@ build:
   dockerfile-path: "build/Dockerfile.multistage"
   custom-tag: "latest"
   registry: "quay.io"
-  registry-org: "modh"
+  registry-org: "harshad16"
   registry-project: "opendatahub-operator"
-  registry-secret: "modh-pusher-secret"
+  registry-secret: "thoth-station-thoth-pusher-secret"
+sibling:
+  sibling-project-org: "harshad16"
+  sibling-project: "odh-manifests"
